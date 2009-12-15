@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="text/javascript" src="overlayBrowser.js"></script>
+
+  <statusbar id="status-bar">
+    <statusbarpanel id="xbStatusBar" context="xbStatusContextMenu">
+      <button id="xulnotifybox-button-1" role="button" label="Notify 1" oncommand="xulnotifybox.newNotify(1)"/>
+      <button id="xulnotifybox-button-2" role="button" label="Notify 2" oncommand="xulnotifybox.newNotify(2)"/>
+      <button id="xulnotifybox-button-3" role="button" label="Notify 3" oncommand="xulnotifybox.newNotify(3)"/>
+    </statusbarpanel>
+  </statusbar>
+ 
+</overlay>
